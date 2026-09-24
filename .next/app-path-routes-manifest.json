@@ -1,0 +1,23 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/coverage/page": "/coverage",
+  "/install/page": "/install",
+  "/operations/customers/[id]/page": "/operations/customers/[id]",
+  "/operations/customers/page": "/operations/customers",
+  "/operations/installations/[id]/page": "/operations/installations/[id]",
+  "/operations/installations/page": "/operations/installations",
+  "/operations/map/page": "/operations/map",
+  "/operations/network/page": "/operations/network",
+  "/operations/page": "/operations",
+  "/operations/reports/page": "/operations/reports",
+  "/operations/settings/page": "/operations/settings",
+  "/operations/technicians/[id]/page": "/operations/technicians/[id]",
+  "/operations/technicians/page": "/operations/technicians",
+  "/operations/tickets/[id]/page": "/operations/tickets/[id]",
+  "/operations/tickets/page": "/operations/tickets",
+  "/page": "/",
+  "/plans/page": "/plans",
+  "/portal/page": "/portal",
+  "/support/page": "/support"
+}

@@ -1,0 +1,23 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/coverage/page": "app/coverage/page.js",
+  "/install/page": "app/install/page.js",
+  "/operations/customers/[id]/page": "app/operations/customers/[id]/page.js",
+  "/operations/customers/page": "app/operations/customers/page.js",
+  "/operations/installations/[id]/page": "app/operations/installations/[id]/page.js",
+  "/operations/installations/page": "app/operations/installations/page.js",
+  "/operations/map/page": "app/operations/map/page.js",
+  "/operations/network/page": "app/operations/network/page.js",
+  "/operations/page": "app/operations/page.js",
+  "/operations/reports/page": "app/operations/reports/page.js",
+  "/operations/settings/page": "app/operations/settings/page.js",
+  "/operations/technicians/[id]/page": "app/operations/technicians/[id]/page.js",
+  "/operations/technicians/page": "app/operations/technicians/page.js",
+  "/operations/tickets/[id]/page": "app/operations/tickets/[id]/page.js",
+  "/operations/tickets/page": "app/operations/tickets/page.js",
+  "/page": "app/page.js",
+  "/plans/page": "app/plans/page.js",
+  "/portal/page": "app/portal/page.js",
+  "/support/page": "app/support/page.js"
+}

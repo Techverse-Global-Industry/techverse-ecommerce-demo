@@ -1,0 +1,180 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/operations/customers/[id]",
+      "regex": "^/operations/customers/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/operations/customers/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/operations/installations/[id]",
+      "regex": "^/operations/installations/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/operations/installations/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/operations/technicians/[id]",
+      "regex": "^/operations/technicians/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/operations/technicians/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/operations/tickets/[id]",
+      "regex": "^/operations/tickets/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/operations/tickets/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/coverage",
+      "regex": "^/coverage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/coverage(?:/)?$"
+    },
+    {
+      "page": "/install",
+      "regex": "^/install(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/install(?:/)?$"
+    },
+    {
+      "page": "/operations",
+      "regex": "^/operations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations(?:/)?$"
+    },
+    {
+      "page": "/operations/customers",
+      "regex": "^/operations/customers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/customers(?:/)?$"
+    },
+    {
+      "page": "/operations/installations",
+      "regex": "^/operations/installations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/installations(?:/)?$"
+    },
+    {
+      "page": "/operations/map",
+      "regex": "^/operations/map(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/map(?:/)?$"
+    },
+    {
+      "page": "/operations/network",
+      "regex": "^/operations/network(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/network(?:/)?$"
+    },
+    {
+      "page": "/operations/reports",
+      "regex": "^/operations/reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/reports(?:/)?$"
+    },
+    {
+      "page": "/operations/settings",
+      "regex": "^/operations/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/settings(?:/)?$"
+    },
+    {
+      "page": "/operations/technicians",
+      "regex": "^/operations/technicians(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/technicians(?:/)?$"
+    },
+    {
+      "page": "/operations/tickets",
+      "regex": "^/operations/tickets(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/operations/tickets(?:/)?$"
+    },
+    {
+      "page": "/plans",
+      "regex": "^/plans(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/plans(?:/)?$"
+    },
+    {
+      "page": "/portal",
+      "regex": "^/portal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/portal(?:/)?$"
+    },
+    {
+      "page": "/support",
+      "regex": "^/support(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/support(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
